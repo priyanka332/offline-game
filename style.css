@@ -5,7 +5,7 @@ body {
 }
 
 .game {
-    padding-top: 6rem;
+    padding-top: 5rem;
     width: 600px;
     height: 200px;
     border: 1px solid black;
@@ -17,6 +17,15 @@ body {
 h1 {
     text-align: center;
     margin-left: -10%;
+}
+
+#score {
+    margin-top: -1rem;
+    margin-bottom: -1rem;
+    text-align: center;
+    position: relative;
+    bottom: 2.2rem;
+    left: 0.5rem;
 }
 
 h3 {

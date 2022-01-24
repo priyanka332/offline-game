@@ -1,5 +1,6 @@
 const dino = document.getElementById("dino");
 const cactus = document.getElementById("cactus");
+const score = document.getElementById("score");
 
 function jump() {
     if (dino.classList != "jump") {
@@ -12,6 +13,7 @@ function jump() {
 }
 
 let isAlive = setInterval(function() {
+    let Score = score.innerText++
     //  Get current dino Y position
     let dinoTop = parseInt(window.getComputedStyle(dino).getPropertyValue("top"));
     
@@ -21,7 +23,7 @@ let isAlive = setInterval(function() {
 
     //  Detect collision
     if (cactusLeft < 50 && cactusLeft > 0 && dinoTop >= 140) {
-        alert("Game Over")
+        alert(`Ooppsss!! **Game Over** Your total Score is: ${Score}. 🥺`)
     }
 },10);
 
