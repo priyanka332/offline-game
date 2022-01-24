@@ -23,7 +23,7 @@ let isAlive = setInterval(function() {
 
     //  Detect collision
     if (cactusLeft < 50 && cactusLeft > 0 && dinoTop >= 140) {
-        alert(`Ooppsss!! **Game Over** Your total Score is: ${Score}. 🥺`)
+        alert(`Ooppsss!! **Game Over** Snow man is melt because of fire 🥺🥺!! Your total Score is: ${Score}. 🥺`)
     }
 },10);
 
