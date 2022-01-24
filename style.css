@@ -1,6 +1,6 @@
 body {
     margin-top: 2rem;
-    background-image: url(image/nature.jpg);
+    background-image: url(image/snow4.jpg);
     background-size: 100%;
 }
 
@@ -10,7 +10,7 @@ body {
     height: 200px;
     border: 1px solid black;
     margin: auto;
-    background-image: url(image/snow4.jpg);
+    background-image: url(image/design.jpg);
     background-size: 100%;
 }
 
