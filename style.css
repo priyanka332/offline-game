@@ -28,6 +28,10 @@ h1 {
     left: 0.5rem;
 }
 
+h2 {
+    text-align: center;
+}
+
 h3 {
     text-align: center;
     margin-left: -20%;
